@@ -94,7 +94,7 @@ header{
     justify-content: center;
     align-items: center;
     padding: 20px;
-    box-shadow: 0 20px 50px rgb(46, 4, 4);
+    box-shadow: 0 20px 50px rgb(1, 1, 48);
     transform: translateY(-100px);
 }
 .container .card:hover .face.face2{
