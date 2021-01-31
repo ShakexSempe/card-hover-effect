@@ -56,7 +56,7 @@ header{
     transform: translateY(100px);
 }
 .container .card:hover .face.face1{
-    background: linear-gradient( 45deg, #000, rgb(1, 1, 48), rgb(0, 0, 8));
+    background: linear-gradient( 45deg, #000, rgb(1, 1, 48), #000);
     transform: translateY(0px);
 }
 .container .card .face.face1 .content{
@@ -94,7 +94,7 @@ header{
     justify-content: center;
     align-items: center;
     padding: 20px;
-    box-shadow: 0 20px 50px rgb(1, 1, 48);
+    box-shadow: 0 15px 50px rgb(1, 1, 48);
     transform: translateY(-100px);
 }
 .container .card:hover .face.face2{
@@ -103,14 +103,16 @@ header{
 .container .card .face.face2 .content p{
     margin: 0;
     padding: 0;
+    color: rgba(1,1,48);
 }
 .container .card .face.face2 .content a{
     margin: 15px 0;
     display: inline-block;
     text-decoration: none;
     font-weight: 900;
-    color: #333;
+    color: #fff;
     padding: 5px;
+    background: linear-gradient( 45deg, #000, rgb(1, 1, 48), #000);
     border: 1px solid #333;
 }
 .container .card .face.face2 .content a:hover{
